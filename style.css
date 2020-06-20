@@ -1,0 +1,70 @@
+ *{
+   margin: 0 auto;
+   box-sizing: border-box;
+ }
+ .nav-link{
+   color: rgb(255, 251, 251) !important;
+   font-weight: bold;
+ }
+ .nav-link:hover{
+   background-color: rgb(43, 45, 51);
+   color:  rgb(205, 135, 1);
+   border-radius: 50px;
+   margin: 10px;
+ }
+ .navbar{
+   background-color: rgb(205, 135, 1) !important;
+ }
+ .carousel-item{
+ height:500px !important;
+
+ }
+ .slider-title{
+   color: rgb(205, 135, 1) ;
+ }
+ .btn{
+   border: 2px solid  rgb(205, 135, 1) !important ;
+   
+ }
+ .btn:hover{
+   background-color:rgb(205, 135, 1) ;
+ 
+ }
+ @media only screen and (max-width:768px){
+  .carousel-caption {
+    width: 50% !important;
+    position: relative;
+
+    bottom:100px !important;
+  }
+ }
+
+ @media only screen and (max-width:375px){
+  .carousel-caption {
+    width: 80% !important;
+    position: relative;
+    bottom:300px !important;
+  }
+  .slider-title{
+    font-size: 30px !important;
+  }
+ }
+
+
+ 
+   .map{
+     width: 100% !important;
+   }
+   .container-footer{
+     background-color:    #1f1707  !important;
+     color: cornsilk !important;
+       padding-left: 25px !important;
+
+   }
+.page-footer{
+  width: 100% !important;
+
+}
+.list-unstyled{
+  text-decoration-line: none !important ;
+}
